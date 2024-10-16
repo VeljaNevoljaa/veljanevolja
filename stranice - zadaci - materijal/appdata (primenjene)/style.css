@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -41,7 +41,7 @@ body {
 
     .navbar a {
         justify-self: center;
-        position: relative;
+        position: absolute;
         font-size: 25px;
         color: #d9e8db;
         font-weight: 500;
@@ -51,7 +51,7 @@ body {
 
         .navbar a::before {
             content: '';
-            position: absolute;
+            position: fixed;
             top: 100%;
             left: 0;
             width: 0;
@@ -71,14 +71,8 @@ body {
     height: 350px;
 }
 
-#klikometar-tekst {
-    font-family: "Poppins", sans-serif;
-    color: #d9e8db;
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-left: 10px;
-    max-width: calc(50% - 250px);
-}
+
+
 
 .container {
     font-family: "Poppins", sans-serif;
@@ -90,22 +84,34 @@ body {
 
 p {
     font-style: italic;
-    padding: 70px;
-    color: #EADCA6;
+    padding: 80px;
+    color: #948e8e;
     font-size: 21px;
     line-height: 1.5;
 }
 
-.klikometar-preuzmi {
+.preuzmi {
     cursor: pointer;
     display: inline-block;
     background-color: #eadca6;
     border-radius: 10px;
     padding: 20px 30px;
+    margin-left:900px;
 }
 
 #rar {
     font-family: 'Times New Roman' sans-serif;
     margin-top: auto;
     margin-left: 900px;
+}
+#voznja {
+    border-radius: 20px;
+    margin: auto auto auto auto;
+    height: 470px;
+    margin-right :100px;
+}
+#lavirint-tekst{
+    color: #948e8e;
+    padding:80px;
+    margin-right:60px;
 }
