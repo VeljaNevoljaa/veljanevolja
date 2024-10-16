@@ -1,0 +1,111 @@
+﻿* {
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #07015c;
+}
+
+
+body {
+    background-image: url('../../slika/ice-cold-blue-to-yellow-gradient-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    color: #d9e8db;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+    .navbar a {
+        justify-self: center;
+        position: relative;
+        font-size: 25px;
+        color: #d9e8db;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 40px;
+    }
+
+        .navbar a::before {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: white;
+            transition: .5s;
+        }
+
+        .navbar a:hover::before {
+            width: 100%;
+        }
+
+
+#klikometar {
+    border-radius: 20px;
+    margin: 45px auto auto auto;
+    height: 350px;
+}
+
+#klikometar-tekst {
+    font-family: "Poppins", sans-serif;
+    color: #d9e8db;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    max-width: calc(50% - 250px);
+}
+
+.container {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    color: #d9e8db;
+    margin-left: 10px;
+    max-width: calc(90% - 250px);
+}
+
+p {
+    font-style: italic;
+    padding: 70px;
+    color: #EADCA6;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+.klikometar-preuzmi {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #eadca6;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+#rar {
+    font-family: 'Times New Roman' sans-serif;
+    margin-top: auto;
+    margin-left: 900px;
+}
